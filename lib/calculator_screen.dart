@@ -127,7 +127,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
       if(val==Btn.dec && (number2.isEmpty || number2==Btn.num0)){
         val="0.";
       }
-      number2+=number1;
+      number2+=val;
 
     }
 
