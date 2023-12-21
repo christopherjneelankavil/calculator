@@ -2,7 +2,7 @@ class Btn{
   static const String delete="D";
   static const String clear="C";
   static const String percent="%";
-  static const String multiply="X";
+  static const String multiply="x";
   static const String divide="/";
   static const String add="+";
   static const String subtract="-";
@@ -20,6 +20,26 @@ class Btn{
   static const String num8="8";
   static const String num9="9";
 
-
+static const List<String> btnVal = [
+  delete,
+  clear,
+  percent,
+  multiply,
+  num7,
+  num8,
+  num9,
+  divide,
+  num4,
+  num5,
+  num6,
+  subtract,
+  num1,
+  num2,
+  num3,
+  add,
+  num0,
+  dec,
+  ans,
+];
 
 }
