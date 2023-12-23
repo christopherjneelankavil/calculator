@@ -1,5 +1,4 @@
-
-
+//flutter calculator
 import 'package:calculator/buttons_list.dart';
 import 'package:flutter/material.dart';
 
@@ -91,11 +90,11 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
 
   Color btnColor(val) {
     return [Btn.delete, Btn.clear, Btn.ans].contains(val)
-        ? Colors.blueGrey
+        ? Colors.lightBlueAccent
         : [Btn.add, Btn.subtract, Btn.multiply, Btn.divide, Btn.percent]
                 .contains(val)
-            ? Colors.orange
-            : Colors.black87;
+            ? Colors.green
+            : const Color.fromARGB(255, 229, 180, 60);
   }
 
   void appendVal(String val) {
